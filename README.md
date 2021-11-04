@@ -11,4 +11,4 @@ Resources
 
 Interested in joining the workgroup? 
 
-[Sign up here](https://forms.gle/XmK3bfRn41ZyayjPA).  You'll be asked to answer a few questions about your interest and level of experience with cloud computing. 
+[Sign up here](https://forms.gle/kybH5C2xfzFb8CBg8).  You'll be asked to answer a few questions about your interest and level of experience with cloud computing. 
