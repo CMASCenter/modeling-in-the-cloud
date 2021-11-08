@@ -9,4 +9,4 @@ Resources
 * [Discussions](https://github.com/CMASCenter/modeling-in-the-cloud/discussions) - technical discussion forum on using the cloud for air quality modeling
 * Code Repository - source code and scripts for modeling and analysis in the cloud
 
-Interested in joining the workgroup? Please contact Steven Fine, fine.steven at epa.gov.
+Interested in joining the workgroup? Please contact the Community Modeling and Analysis System Center at cmas@unc.edu.
