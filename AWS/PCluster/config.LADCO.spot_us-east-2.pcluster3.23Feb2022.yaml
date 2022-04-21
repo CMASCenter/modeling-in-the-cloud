@@ -1,0 +1,128 @@
+Region: us-east-2
+Image:
+  Os: alinux2  # alinux2 | centos7 | ubuntu1804 | ubuntu2004
+HeadNode:
+  InstanceType: c4.large
+  Networking:
+    SubnetId: subnet-xxxxxxxx
+    ElasticIp: false  # true|false|EIP-id
+  DisableSimultaneousMultithreading: false
+  Ssh:
+    KeyName: xxxxxx
+  LocalStorage:
+    RootVolume:
+      Size: 40
+      Encrypted: false
+      DeleteOnTermination: true
+  Iam:
+    S3Access:
+    - BucketName: xxxxxxx
+      EnableWriteAccess: true
+Scheduling:
+  Scheduler: slurm
+  SlurmSettings:
+    ScaledownIdletime: 15
+  SlurmQueues:
+    - Name: compute
+      CapacityType: SPOT
+      Networking:
+        SubnetIds:
+          - subnet-xxxxxxxx
+        PlacementGroup:
+          Enabled: True
+      ComputeResources:
+        - Name: c5a12x #
+          DisableSimultaneousMultithreading: false
+                    InstanceType: c5a.12xlarge
+          MaxCount: 50
+        - Name: c6i24x #
+          DisableSimultaneousMultithreading: false
+          InstanceType: c6i.24xlarge
+          MaxCount: 50
+        - Name: c524x #
+          DisableSimultaneousMultithreading: false
+          InstanceType: c5d.24xlarge
+          MaxCount: 50
+    - Name: general
+      CapacityType: SPOT
+      Networking:
+        SubnetIds:
+          - subnet-xxxxxxxx
+        PlacementGroup:
+          Enabled: True
+      ComputeResources:
+        - Name: m5n8x
+          DisableSimultaneousMultithreading: false
+          InstanceType: m5n.8xlarge
+          MaxCount: 50
+        - Name: m5a8x
+          DisableSimultaneousMultithreading: false
+          InstanceType: m5a.8xlarge
+          MaxCount: 50
+        - Name: m524x
+          DisableSimultaneousMultithreading: false
+          InstanceType: m5.24xlarge
+          MaxCount: 50
+    - Name: memory
+      CapacityType: SPOT
+      Networking:
+        SubnetIds:
+          - subnet-xxxxxxxx
+        PlacementGroup:
+          Enabled: True
+      ComputeResources:
+        - Name: r5a8x
+          DisableSimultaneousMultithreading: false
+          InstanceType: r5a.8xlarge
+          MaxCount: 50
+        - Name: r6i12x
+          DisableSimultaneousMultithreading: false
+          InstanceType: r6i.12xlarge
+          MaxCount: 50
+        - Name: r38x
+          DisableSimultaneousMultithreading: false
+          InstanceType: r3.8xlarge
+          MaxCount: 50
+        - Name: r6i24x
+          DisableSimultaneousMultithreading: false
+          InstanceType: r6i.24xlarge
+          MaxCount: 50
+SharedStorage:
+  - MountDir: /apps
+    StorageType: Ebs
+    Name: appsvolume
+    EbsSettings:
+      Size: 120
+      SnapshotId: snap-xxxxxxxx
+      DeletionPolicy: Snapshot # Delete | Retain | Snapshot
+  - MountDir: /data/efs
+    StorageType: Efs
+    Name: dataefs
+    EfsSettings:
+      Encrypted: false  # true
+      PerformanceMode: generalPurpose  # generalPurpose | maxIO
+            ThroughputMode: bursting  # bursting | provisioned
+  - MountDir: /data/lustre
+    StorageType: FsxLustre
+    Name: datalustre
+    FsxLustreSettings:
+      StorageCapacity: 2400  # 1200 | 2400| 3600
+      DeploymentType: SCRATCH_1  # PERSISTENT_1 | SCRATCH_1 | SCRATCH_2
+      ExportPath: s3://xxxxxxxxxxxx
+      ImportPath: s3://xxxxxxxxxxxx
+      AutoImportPolicy: NEW_CHANGED  # NEW | NEW_CHANGED
+      StorageType: SSD  # HDD | SSD
+Monitoring:
+  DetailedMonitoring: false
+  Logs:
+    CloudWatch:
+      Enabled: true
+      RetentionInDays: 14
+      DeletionPolicy: Delete
+  Dashboards:
+    CloudWatch:
+      Enabled: true
+CustomS3Bucket: xxxxxxxx
+Tags:
+  - Key: Name
+    Value: Feb22Pcluster
