@@ -2,7 +2,7 @@
 
 ## Consolidated Ideas for Workgroup Priorities:
 *	Invite vendors to talk about what they can offer, e.g.,
-      *	Cloud service providers—e.g., what support they provide for scientific computin
+      *	Cloud service providers—e.g., what support they provide for scientific computing
       *	Information about Linux admin support
       * AER
       * Ramboll?
