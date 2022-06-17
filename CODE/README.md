@@ -5,4 +5,6 @@ This directory contains links to github code resources for the [Modeling in the 
 
 - Amazon Machine Images
 
+- Azure VMs available on Marketplace
+
 - Github Resources
