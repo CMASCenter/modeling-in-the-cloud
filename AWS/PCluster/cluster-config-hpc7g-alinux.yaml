@@ -1,0 +1,56 @@
+HeadNode:
+  InstanceType: c7g.xlarge
+  Networking:
+    SubnetId: subnet-0eed3f3567767ce4d 
+  Ssh:
+    KeyName: cmas
+  LocalStorage:
+    RootVolume:
+      Size: 40
+      Encrypted: false
+  Iam:
+    AdditionalIamPolicies:
+      - Policy: arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+      - Policy: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+  Dcv:
+    Enabled: true
+Scheduling:
+  Scheduler: slurm
+  SlurmQueues:
+    - Name: compute
+      ComputeResources:
+        - Name: hpc7g
+          MinCount: 0
+          MaxCount: 3
+          InstanceType: hpc7g.16xlarge
+          Efa:
+            Enabled: true
+      Networking:
+        SubnetIds:
+          - subnet-0eed3f3567767ce4d
+        PlacementGroup:
+          Enabled: true
+      Iam:
+        AdditionalIamPolicies:
+          - Policy: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+Region: us-east-1
+Image:
+  Os: alinux2
+SharedStorage:
+  - MountDir: /shared
+    Name: ebs-shared
+    StorageType: Ebs
+    EbsSettings:
+      Encrypted: false
+      SnapshotId: snap-0e4519705c745f0ea
+      Size: 100
+  - Name: FsxLustre0
+    StorageType: FsxLustre
+    MountDir: /fsx
+    FsxLustreSettings:
+      StorageCapacity: 1200
+      DeletionPolicy: Delete
+      DeploymentType: PERSISTENT_1
+      PerUnitStorageThroughput: 200
+      DataCompressionType: LZ4
+      ImportPath: s3://cmas-cmaq
