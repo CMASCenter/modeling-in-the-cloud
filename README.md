@@ -10,7 +10,7 @@ Resources
 * [Meeting Materials](https://github.com/CMASCenter/modeling-in-the-cloud/tree/main/Meetings)
 * Code Repository - source code and scripts for modeling and analysis in the cloud
 
-### Cloud Computing Help Session Zoom meeting first Firday of each Month
+### Cloud Computing Help Session Zoom meeting first Friday of each Month
 
 Next session:
 
