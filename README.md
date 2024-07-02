@@ -19,4 +19,13 @@ Next session:
       https://unc.zoom.us/meeting/register/tJMscumurzMvHtFJ32koXFqT5PAbJdlrceHR 
       After registering, you will receive a confirmation email containing information about joining the meeting.
 
+Future sessions:
+
+        Aug. 2, 2024  02:00 PM Eastern Time (US and Canada) 
+        Sept. 6, 2024 02:00 PM Eastern Time (US and Canada) 
+        Oct. 4, 2024  02:00 PM Eastern Time (US and Canada) 
+        Nov. 1, 2024  02:00 PM Eastern Time (US and Canada) 
+
+Google Calendar: 
+
 Interested in joining the workgroup? Please contact the Community Modeling and Analysis System Center at cmas@unc.edu.
