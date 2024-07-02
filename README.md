@@ -11,7 +11,9 @@ Resources
 * Code Repository - source code and scripts for modeling and analysis in the cloud
 
 * Cloud Computing Help Session Zoom meeting first Firday of each Month
-Next session: Jul 5, 2024 02:00 PM Eastern Time (US and Canada) 
+Next session:
+
+Jul 5, 2024 02:00 PM Eastern Time (US and Canada) 
 
 Register in advance for this meeting:
 https://unc.zoom.us/meeting/register/tJMscumurzMvHtFJ32koXFqT5PAbJdlrceHR 
