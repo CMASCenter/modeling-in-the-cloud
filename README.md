@@ -13,11 +13,10 @@ Resources
 * Cloud Computing Help Session Zoom meeting first Firday of each Month
 Next session:
 
-Jul 5, 2024 02:00 PM Eastern Time (US and Canada) 
+        Jul 5, 2024 02:00 PM Eastern Time (US and Canada) 
 
-Register in advance for this meeting:
-https://unc.zoom.us/meeting/register/tJMscumurzMvHtFJ32koXFqT5PAbJdlrceHR 
-
-After registering, you will receive a confirmation email containing information about joining the meeting.
+      Register in advance for this meeting:
+      https://unc.zoom.us/meeting/register/tJMscumurzMvHtFJ32koXFqT5PAbJdlrceHR 
+      After registering, you will receive a confirmation email containing information about joining the meeting.
 
 Interested in joining the workgroup? Please contact the Community Modeling and Analysis System Center at cmas@unc.edu.
