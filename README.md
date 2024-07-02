@@ -29,4 +29,6 @@ Future sessions:
 
 Google Calendar: 
 
+* [Add this calendar](https://calendar.google.com/calendar/render?cid=c_66f59154698f923736daed041c3841111efe99d95f7e531f7036049e1324af86@group.calendar.google.com)
+
 Interested in joining the workgroup? Please contact the Community Modeling and Analysis System Center at cmas@unc.edu.
