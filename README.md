@@ -10,4 +10,25 @@ Resources
 * [Meeting Materials](https://github.com/CMASCenter/modeling-in-the-cloud/tree/main/Meetings)
 * Code Repository - source code and scripts for modeling and analysis in the cloud
 
+### Cloud Computing Help Session Zoom meeting first Friday of each Month
+
+Next session:
+
+        Jul 5, 2024 02:00 PM Eastern Time (US and Canada) 
+
+      Register in advance for this meeting:
+      https://unc.zoom.us/meeting/register/tJMscumurzMvHtFJ32koXFqT5PAbJdlrceHR 
+      After registering, you will receive a confirmation email containing information about joining the meeting.
+
+Future sessions:
+
+        Aug. 2, 2024  02:00 PM Eastern Time (US and Canada) 
+        Sept. 6, 2024 02:00 PM Eastern Time (US and Canada) 
+        Oct. 4, 2024  02:00 PM Eastern Time (US and Canada) 
+        Nov. 1, 2024  02:00 PM Eastern Time (US and Canada) 
+
+Google Calendar: 
+
+* [Add this calendar](https://calendar.google.com/calendar/render?cid=c_66f59154698f923736daed041c3841111efe99d95f7e531f7036049e1324af86@group.calendar.google.com)
+
 Interested in joining the workgroup? Please contact the Community Modeling and Analysis System Center at cmas@unc.edu.
