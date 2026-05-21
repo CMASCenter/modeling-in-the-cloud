@@ -15,10 +15,7 @@ Resources
 Next session:
 
         Jul 16, 2026 03:00 PM Eastern Time (US and Canada) 
-
-      Register in advance for this meeting:
-      https://unc.zoom.us/meeting/register/tJMscumurzMvHtFJ32koXFqT5PAbJdlrceHR 
-      After registering, you will receive a confirmation email containing information about joining the meeting.
+        Please contact Zac Adelman or Fahim Sidi to be added to the upcoming zoom meetings.
 
 Future sessions:
 
