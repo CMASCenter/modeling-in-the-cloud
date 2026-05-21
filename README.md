@@ -14,7 +14,7 @@ Resources
 
 Next session:
 
-        Jul 5, 2024 02:00 PM Eastern Time (US and Canada) 
+        Jul 16, 2026 03:00 PM Eastern Time (US and Canada) 
 
       Register in advance for this meeting:
       https://unc.zoom.us/meeting/register/tJMscumurzMvHtFJ32koXFqT5PAbJdlrceHR 
@@ -22,10 +22,10 @@ Next session:
 
 Future sessions:
 
-        Aug. 2, 2024  02:00 PM Eastern Time (US and Canada) 
-        Sept. 6, 2024 02:00 PM Eastern Time (US and Canada) 
-        Oct. 4, 2024  02:00 PM Eastern Time (US and Canada) 
-        Nov. 1, 2024  02:00 PM Eastern Time (US and Canada) 
+        July 16, 2026  03:00 PM Eastern Time (US and Canada) 
+        Sept. 17, 2026 03:00 PM Eastern Time (US and Canada) 
+        Nov. 19, 2026  03:00 PM Eastern Time (US and Canada) 
+        Jan. 21, 2026  03:00 PM Eastern Time (US and Canada) 
 
 Google Calendar: 
 
