@@ -15,7 +15,7 @@ Resources
 Next session:
 
         Jul 16, 2026 03:00 PM Eastern Time (US and Canada) 
-        Please contact Zac Adelman or Fahim Sidi to be added to the upcoming zoom meetings.
+        Please contact Zac Adelman or Fahim Sidi to be added to the upcoming Teams meetings.
 
 Future sessions:
 
