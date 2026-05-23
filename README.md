@@ -22,7 +22,7 @@ Future sessions:
         July 16, 2026  03:00 PM Eastern Time (US and Canada) 
         Sept. 17, 2026 03:00 PM Eastern Time (US and Canada) 
         Nov. 19, 2026  03:00 PM Eastern Time (US and Canada) 
-        Jan. 21, 2026  03:00 PM Eastern Time (US and Canada) 
+        Jan. 21, 2027  03:00 PM Eastern Time (US and Canada) 
 
 Google Calendar: 
 
